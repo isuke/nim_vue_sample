@@ -1,0 +1,20 @@
+:chapter-label:
+:icons: font
+:lang: en
+:sectanchors:
+:sectlinks:
+:sectnums:
+:source-highlighter: highlightjs
+:toc: left
+:toclevels: 1
+
+= Nim Vue.js Sample
+
+* nim 0.18.0
+
+== Usage
+
+----
+$ nim js -r -o:Counter.js Counter.nim
+$ open index.html
+----
